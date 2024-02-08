@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: PT , sans-serif;
+}
+/* nav bar style */
+nav{
+    background-color: rgb(29, 29, 29);
+    color: #fff;
+    height: 40px;
+    opacity: 1;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+nav>.div1{
+    display: flex;
+    gap: 40px;
+    font-size: 20px;
+}
+
+nav >.div1>h4{
+    font-weight: lighter;
+    padding: 8px 10px;
+}
+/* second section style */
+.div2{
+    border: 2px solid rgb(0, 0, 0);
+    background-image: url('https://jolly-kalam-23776e.netlify.app/mytunes/img/showcase.jpeg');
+    color: #fff;
+    text-align: center;
+    background-size: cover;
+}
+
+.div2  >h1{
+    text-align: center;
+    font-size: 60px;
+    margin: 170px 0px 30px 0px;
+}
+
+.div2 > h2{
+    margin: 0px 0px 30px 0px;
+    font-size: 30px;
+}
+
+.div2 > h4{
+    font-size: 20px;
+    font-weight: lighter;
+    margin: 0px 50px;
+}
+/* free trail section style */
+.div3{
+    background-color: #242424;
+    color: #fff;
+}
+
+.div3  >h1{
+    text-align: center;
+    font-size: 60px;
+    padding: 50px 0px 30px 0px;
+}
+
+.div3 > h2{
+    margin: 0px 0px 30px 0px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.div3 > h4{
+    font-size: 20px;
+    font-weight: lighter;
+    margin: 0px 100px;
+    text-align: center;
+}
+
+.div3 > button{
+    width: 200px;
+    height: 60px;
+    background-color: rgb(202, 0, 0);
+    color: #fff;
+    box-shadow: none;
+    margin: 30px 550px;
+    font-size: 20px;
+}
+
+.div3 > button:hover{
+    background-color: rgb(236, 15, 15);
+}
+
+.div3 > h5{
+    font-size: 17px;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.div3 > img{
+    margin: 10px 0px 0px 20px;
+
+}
+
+/* More inforrmation section style */
+.div4{
+    text-align: center;
+}
+
+.div4 > h2{
+    margin: 50px 0px 30px 0px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.div4 > h4{
+    font-size: 20px;
+    font-weight: lighter;
+    margin: 0px 100px;
+    text-align: center;
+}
+
+.div4 > button{
+    background-color: rgb(0, 0, 58);
+    color: #fff;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    margin: 30px 550px;
+}
+
+.div4 > button:hover{
+    background-color: rgb(0, 0, 124);
+}
+
+/* sample paragraph style */
+.div5{
+    background: url('https://jolly-kalam-23776e.netlify.app/mytunes/img/section-bg.jpeg');
+    height: 550px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    width: 100%;
+    color: #fff;
+}
+
+.div5 > h2{
+    margin: 30px 0px 30px 0px;
+    padding: 200px 50px 30px 50px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.div5 > h4{
+    font-size: 20px;
+    font-weight: lighter;
+    margin: 0px 100px;
+    text-align: center;
+}
+
+/* Gift card section style */
+.div6{
+    display: flex;
+}
+
+.div6 > img{
+    width: 600px;
+    height: 400px;
+    margin: 50px 20px 30px 50px;
+}
+
+.div6A > h2{
+    padding: 20px 50px 20px 0px;
+    margin: 30px 40px ;
+    font-size: 30px;
+    text-align: left;
+    color: #242424;
+}
+
+.div6A > h5{
+    font-size: 18px;
+    font-weight: lighter;
+    margin: 0px 40px 30px 40px;
+    text-align: left;
+}
+
+.div6A > h6{
+    font-size: 18px;
+    font-weight: lighter;
+    margin-top: 10px;
+    cursor: pointer;
+    color: rgb(0, 39, 148);
+}
+
+/* More information 2 section style */
+.div7{
+    background-color: #353535;
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+    padding: 0px 0px 10px 0px;
+    text-align: left;
+}
+
+.div7 > .div7A > h4{
+    margin: 25px 0px 5px 0px ;
+    padding: 10px 0px 10px 0px;
+    font-weight: lighter;
+    text-align: left;
+}
+
+.div7 > .div7A > h5{
+    font-weight: lighter;
+    padding: 10px 0px 0px 0px;
+}
+
+/* last bottom bar section style */
+.div8{
+    background-color: #3f3f3f;
+    color: #fff;
+    height: 50px;
+    text-align: center;
+    padding: 15px 0px 15px 0px;
+}

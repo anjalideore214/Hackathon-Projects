@@ -1,0 +1,162 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* Navbar and logo style */
+.div1{
+    background-color:rgb(0, 46, 58);
+    color: #fff;
+    height: 500px;
+}
+
+.div1 > .div2{
+    display: flex;
+}
+
+.div1 > .div2 > .logo{
+    padding: 20px 0px 0px 230px;
+}
+
+.div1 > .div2 > .logo:hover{
+    color: rgb(0, 92, 116);
+}
+
+.div1 > .div2 > .logo >h1{
+    font-size: 50px;
+    font-weight:lighter;
+    cursor: pointer;
+}
+
+.div1 > .div2 > .nav {
+    float: right;
+    text-align: right;
+    margin: 100px 40px 0px 300px;
+}
+
+.div1  > .div2 > .nav > .date >h4{
+     font-size: 20px;
+     padding: 0px 0px 10px 0px;
+     font-weight: lighter;
+     color: rgba(0, 92, 116, 0.952);
+}
+
+.div1  > .div2 > .nav > .nav2{
+    display: flex;
+    gap: 40px;
+}
+
+.div1 > .div2 > .nav > .nav2 > h5{
+    font-weight:lighter;
+    cursor: pointer;
+}
+
+.div1 > .div2 > .nav > .nav2 > h5:hover{
+    color:rgb(0, 92, 116);
+}
+
+.div1 > .div3{
+    text-align: center;
+    padding: 50px 70px 0px 70px;
+}
+
+.div1 > .div3 > h2{
+    font-size: 40px;
+    font-weight: lighter;
+    color:rgba(0, 92, 116, 0.952);
+}
+
+.div1 > .div3 > h4{
+    font-size: 25px;
+    font-weight: lighter;
+    padding: 5px 120px;
+}
+
+/* register button style */
+.div1 > .div3 > button{
+    height: 70px;
+    width: 180px;
+    margin: 20px;
+    background-color:rgb(0, 46, 58) ;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    font-size: 17px;
+}
+
+.div1 > .div3 > button:hover{
+    background-color: rgba(255, 255, 255, 0.952);
+    color: #111;
+    cursor: pointer;
+}
+
+/* mid section style */
+.mid{
+    margin: 60px 150px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.mid > .midA {
+    width: 700px;
+    padding: 10px 10px;
+}
+
+.mid > .midA img{
+    width: 310px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.mid > .midA > h5{
+    padding: 20px 0px;
+    font-weight: lighter;
+    color: #666666;
+}
+
+.mid > .midA > h3{
+    padding: 20px 0px;
+    font-weight: lighter;
+    color: #666666;
+}
+
+.mid > .midA > h3:hover{
+    color: #9b9b9b;
+    cursor: pointer;
+}
+
+.mid > .midA > h4{
+    padding: 0px 0px 20px 0px;
+    font-weight: lighter;
+    color: #666666;
+}
+
+/* Bottom navbar style */
+.last{
+    background-color:rgb(0, 46, 58) ;
+    color: #fff;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px ;
+}
+
+.last > .one{
+    color: rgba(0, 92, 116, 0.952);
+}
+
+.last > .two{
+    display: flex;
+    gap: 30px;
+}
+
+.last > .two >h5{
+    font-weight: lighter;
+}
+
+.last > .two >h5:hover{
+    color:rgb(0, 92,116);
+    cursor: pointer;
+}
